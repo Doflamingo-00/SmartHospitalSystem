@@ -1,0 +1,15 @@
+com\hospital\api\repository\DoctorScheduleRepository.class
+com\hospital\api\controller\AppointmentController.class
+com\hospital\api\repository\AppointmentRepository.class
+com\hospital\api\controller\DoctorController.class
+com\hospital\api\entity\Appointment$Status.class
+com\hospital\api\repository\DoctorRepository.class
+com\hospital\api\entity\Doctor.class
+com\hospital\api\controller\PatientController.class
+com\hospital\api\entity\DoctorSchedule.class
+com\hospital\api\repository\ReceiptRepository.class
+com\hospital\api\controller\ReceiptController.class
+com\hospital\api\entity\Appointment.class
+com\hospital\api\entity\Receipt.class
+com\hospital\api\entity\Receipt$PaymentStatus.class
+com\hospital\api\HospitalApiApplication.class

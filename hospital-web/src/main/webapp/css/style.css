@@ -1,0 +1,73 @@
+:root {
+    --primary: #0d6efd;
+    --primary-dark: #0a58ca;
+    --success: #198754;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --dark: #212529;
+    --light: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+    color: white;
+    padding: 4rem 0;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.doctor-card .badge {
+    font-size: 0.8rem;
+}
+
+.status-PENDING { background-color: #ffc107; color: #000; }
+.status-CONFIRMED { background-color: #0d6efd; color: #fff; }
+.status-COMPLETED { background-color: #198754; color: #fff; }
+.status-CANCELLED { background-color: #6c757d; color: #fff; }
+
+.receipt-box {
+    border: 2px dashed #0d6efd;
+    border-radius: 12px;
+    padding: 2rem;
+    background: white;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.footer {
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+    background: #212529;
+    color: #adb5bd;
+    text-align: center;
+}
